@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fresh food</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonials">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!-- back to top -->
+    <a href="#home" class="back-to-top">
+        <i class='bx bxs-to-top'></i>
+    </a> 
+    <!--end back to top -->
+    <!-- top navication -->
+    <div class="nav ">
+        <div class="menu-wrap">
+            <a href="#home">
+                <div class="logo">
+                    Freshfood
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="menu-item">
+                        Menu
+                    </div>
+                </a>
+                <a href="#testimonials">
+                    <div class="menu-item">
+                        Testimonials
+                    </div>
+                </a>
+            </div>
+            <div class="menu-right">
+                <div class="cart-btn">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end top navication -->
+    <!-- section home -->
+    <section id="home" class="fullheight align-item-center bg-img bg-img-fixed"
+        style="background-image: url(./assets/image/brooke-lark-08bOYnH_r_E-unsplash.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1>Freshfood</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatem tenetur tempore,
+                            eum deserunt necessitatibus suscipit eaque rerum magnam eius nisi ea dolor nemo voluptates.
+                            Animi, vero. Numquam, dolor dolores.</p>
+                        <button> order now </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--end section home -->
+    <!-- section about -->
+    <section id="about" class="about fullheight align-item-center ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="./assets/image/dan-gold-4_jhDO54BYg-unsplash.jpg" alt="" class="fullwidth">
+                </div>
+                <div class="col-5 col-xs-12 align-item-center">
+                    <div class="about-slogan">
+                        <h3><span>we</span> create <span>delicious</span> memories for <span>you</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repellendus hic quis quas,
+                            at totam blanditiis, eos minus dolore beatae nihil nesciunt labore? Autem molestiae quae
+                            dignissimos labore voluptas laudantium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end section about -->
+    <!-- section menu -->
+    <section id="food-menu-section" class=" align-item-center bg-img bg-img-fixed"
+        style="background-image: url(./assets/image/katherine-chase-4MMK78S7eyk-unsplash.jpg);">
+        <div class="container">
+            <div class="food-menu">
+                <h1>What will <span class="primary-color">you</span> eat today ?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque delectus velit quaerat dolores natus
+                    quae. Iusto dolor vitae suscipit id odio iure molestias natus consectetur dolores eius! Non, optio
+                    ad.</p>
+                <div class="food-category">
+                    <div>
+                        <button data-food-type="all" class="active">
+                            All food
+                        </button>
+                    </div>
+                    <div>
+                        <button data-food-type="salad">
+                            Salad
+                        </button>
+                    </div>
+                    <div>
+                        <button data-food-type="lorem">
+                            lorem
+                        </button>
+                    </div>
+                    <div>
+                        <button data-food-type="ipsum">
+                            Ipsum
+                        </button>
+                    </div>
+                    <div>
+                        <button data-food-type="dolor">
+                            Dolor
+                        </button>
+                    </div>
+
+                </div>
+                <div class="food-item-wrap all">
+                    <div class="food-item m-4 col-xs-6 salad-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 dolor-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/carly-jayne-Lv174o7fn7Y-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 ipsum-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/jonathan-farber-OCNqOLeCwOc-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 lorem-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/sina-piryae-bBzjWthTqb8-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 ipsum-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/jonathan-farber-OCNqOLeCwOc-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 lorem-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/sina-piryae-bBzjWthTqb8-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 dolor-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/carly-jayne-Lv174o7fn7Y-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="food-item m-4 col-xs-6 salad-type">
+                        <div class="item-wrap">
+                            <div class="item-img">
+                                <div class="img-hoder bg-img"
+                                    style="background-image: url(./assets/image/anh-nguyen-kcA-c3f_3FE-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div>
+                                    <h3>lorem ipsum</h3>
+                                    <span>120$</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <i class='bx bx-cart-alt'></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end section menu -->
+    <!-- reive testimonials-->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12 c-12 ">
+                    <div class="review-wrap">
+                        <div class="review-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsam, fugiat vel
+                                veniam dolorum quam eligendi consectetur ut in nam sed quis reiciendis corporis iure
+                                consequatur earum fugit labore praesentium.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(./assets/image/close-up-portrait-cute-young-woman-holding-textbook-colored-pencils-posing-studio-isolated-pink_176532-9674.jpg);">
+                            </div>
+
+                        </div>
+                        <div class="review-info">
+                            <h3>lorem ipsum dolor</h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap active">
+                        <div class="review-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsam, fugiat vel
+                                veniam dolorum quam eligendi consectetur ut in nam sed quis reiciendis corporis iure
+                                consequatur earum fugit labore praesentium.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(./assets/image/michael-dam-mEZ3PoFGs_k-unsplash.jpg);">
+                            </div>
+
+                        </div>
+                        <div class="review-info">
+                            <h3>lorem ipsum dolor</h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap">
+                        <div class="review-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsam, fugiat vel
+                                veniam dolorum quam eligendi consectetur ut in nam sed quis reiciendis corporis iure
+                                consequatur earum fugit labore praesentium.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(./assets/image/portrait-happy-young-man_171337-21716.jpg);">
+                            </div>
+
+                        </div>
+                        <div class="review-info">
+                            <h3>lorem ipsum dolor</h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end reive testimonials-->
+    <!-- section footer -->
+    <section class="footer text-center bg-img "
+        style="background-image: url(./assets/image/nordwood-themes-pYWrdKO5ksI-unsplash.jpg);">
+        <div class="contaner">
+            <div class="row">
+                <div class="col-6 m-6 col-xs-12">
+                    <h2>Freshfood</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ratione pariatur dolor. Culpa
+                        praesentium nam at, maxime omnis, architecto quibusdam facere harum eos, placeat aperiam
+                        exercitationem officia doloremque. Neque, delectus!
+                    </p><br>
+                    <p>Email: example@mail.com</p>
+                    <p>Phone: +00 123 456 789</p>
+                    <p>Website: freshfood.com</p>
+
+                </div>
+                <div class="col-2 m-4 col-xs-12">
+                    <h2>About us</h2><br>
+                    <a href="#home">
+                        <p>Cheft</p>
+                    </a>
+                    <a href="#food-menu-section">
+                        <p>menu</p>
+                    </a>
+                    <a href="#testimonials">
+                        <p>testimonitals</p>
+                    </a>
+                    <a href="#">
+                        <p>lorem ipsum</p>
+                    </a>
+                </div>
+                <div class="col-4 m-6 col-xs-12">
+                    <h2>Subscribe & media</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequuntur in quo, hic cum,
+                        corporis cumque quia perspiciatis quas dicta nulla iste itaque repudiandae ab, officiis natus
+                        iusto molestias repellat.
+                    </p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end section footer -->
+ <!--  javascript -->
+
+ <script src="./assets/javascript/main.js"></script>
+
+</body>
+
+</html>
